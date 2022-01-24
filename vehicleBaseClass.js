@@ -1,3 +1,5 @@
+
+
 class Vehicle {
     constructor(make, model, year, color, mileage) {
         this.make = make;
