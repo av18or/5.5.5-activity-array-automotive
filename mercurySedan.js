@@ -10,7 +10,7 @@ let v = new VehicleModule.Vehicle("Mecury", "Sedan", "1965", "color", "mileage")
 console.log(v.make)
 
 
-// our class with constructor and super keyword
+// class with constructor and super keyword
 class Car extends Vehicle {
     constructor(make, model, year, color, mileage) {
         super(make, model, year, color, mileage);
